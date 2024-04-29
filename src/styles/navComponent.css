@@ -1,0 +1,63 @@
+.header{
+    background: #4761B4;
+    width: 100%;
+}
+
+.nav{
+    display: flex;
+    height: 70px;  
+}
+
+.hamburguer{
+    display: flex;
+    margin-left: 5%;
+}
+
+.botaoHamburguer {
+    border: none;
+    background: none;
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+}    
+
+.hamburguer-line {
+    width: 70%;
+    height: 6px; 
+    background: #fff;
+    margin-bottom: 4px;  
+}
+
+.hamburguer-line:last-child{
+    margin-bottom: 0px;
+}
+
+.logo{
+    font-size: 30px;
+    color: #fff;
+    font: normal normal bold ;
+    text-align: center;
+    font-family: "Space Mono", Bold;
+    font-weight: 900;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.loginArea{
+    display: flex;
+    align-items: center;
+    margin-left: 60%;
+}
+
+.loginLink{
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color:#fff;
+    padding-block:16px ;  
+    text-decoration: none;
+}
+
+.nav-image {
+    width: 80px;
+}

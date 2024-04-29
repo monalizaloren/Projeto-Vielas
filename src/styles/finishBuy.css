@@ -1,0 +1,34 @@
+.container{
+    display: block;
+    justify-content: center;
+    background-color: #4761B4;
+    width: 100%;
+    height: 100%;
+    margin: inherit;
+    overflow: hidden;
+}
+
+.container .h3{  
+    text-decoration: none;
+    
+}
+.backToHome{
+    color: #e75d00;
+    display: flex;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.blue{
+    height: 50%;
+    display: flex;
+}
+
+.orange{
+    background-color: #e75d00;
+    height: 22vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}

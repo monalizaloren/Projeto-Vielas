@@ -1,0 +1,55 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 120px;
+  width: 100%;
+}
+
+.area-input {
+  width: 80%;
+  margin: 20px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(121, 121, 121, 0.341);
+  border-radius: 33px;
+}
+
+.icon {
+  padding: 14px;
+}
+
+.input[type="text"] {
+  width: 90%;
+  padding: 10px;
+  padding-right: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+.areaLinks{
+  width: 90%;
+}
+
+.areaLinks ul {
+  display: flex;
+  justify-content: center; 
+}
+
+.areaLinks ul {
+  padding: inherit;
+}
+
+.areaLinks ul li{
+  list-style: none;
+}
+
+.areaLinks ul li a {
+  font-family: "Space Mono", monospace;
+  font-style: italic;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  text-decoration: none;
+  justify-content: center;
+  
+}

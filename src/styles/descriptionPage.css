@@ -1,0 +1,116 @@
+.DescriptionPage {
+    text-align: left;
+    padding: 8%;
+    h2{
+    font-family: "Space Mono";
+    font-weight: bold;
+    }
+   
+    p{font-size: 12px;
+     font-family: "Space Mono";
+    }
+}
+
+* {
+    margin: auto;
+}
+
+.containerFinalizarCompra{
+    display: flex;
+    border: 1px solid;
+    padding: 20px;
+    margin-top: 3%;
+
+}
+
+img{
+   width: 40%;
+   margin-bottom: 5%;
+}
+
+.text-left{
+    width: 40%;
+    margin: 0; 
+    margin-top: 4%;   
+}
+.text-right{
+    margin: 0;
+}
+.textP{
+    margin-bottom: 14%; 
+}
+.textP2{
+    margin-top: 9%;
+}
+.textP3{
+    margin-top: 8%;
+}
+ .inputBuy{
+    margin-top: 20%;
+    font-family: "Space Mono";
+    font-weight: normal;
+} 
+.button-div{
+    display: flex;
+    margin-top: 5%;
+    font-family: "Space Mono";
+    font-weight: normal bold;
+    flex-direction: column;
+    margin-left: 40%;
+    align-items: flex-start;
+}
+.button-div p {
+    margin: 0; 
+    margin-left: 32%;
+}
+.custom-button{
+    padding: 10px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+    background-color: #4761B4;
+    color: #FFFFFF;
+    margin-top: 2%;
+
+}
+
+@media (max-width: 425px) {
+    .DescriptionPage {
+      padding: 5%;
+    }
+  
+    .container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between; 
+      padding: 10px;
+    }
+  
+    img {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .text-left, .text-right {
+      width: 45%; 
+      margin-top: 10px;
+    }
+    .textP{
+        margin-bottom: 25px;
+        margin-top: 10px;
+    }
+    .textP2, .textP3 {
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+  
+    .inputBuy {
+      margin-top: 10px;
+    }
+    .custom-button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}

@@ -1,0 +1,99 @@
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup-content {
+    background-color: #4761B4;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 35%;
+  }
+  
+  .popup-content h2 {
+    color: #fff;
+    font-family: Space Mono, Bold;
+    margin-bottom: 20px;
+    text-align: start;
+    margin-left: 10px;
+  }
+  
+  .popup-content input[type="text"],
+  .popup-content input[type="password"] {
+    width: 94%;
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-left: 6px;
+    border: 1px solid #707070;
+    border-radius: 35px;
+    font-family: Space Mono, Regular;
+    font-size: 20px;
+  }
+  
+  .popup-content .forgot-password {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: Space Mono, Regular;
+  }
+  
+  .popup-content .forgot-password a {
+    text-decoration: none;
+    color: #0077ff;
+    font-family: Space Mono, Regular;
+  }
+  
+  .popup-content .forgot-password a:hover {
+    text-decoration: underline;
+  }
+  
+  .popup-content input[type="submit"] {
+    display: block;
+    width: 35%;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: #ffffff;
+    color: #d8690e;
+    cursor: pointer;
+    font-family: Space Mono, Bold;
+  }
+  
+  .popup-content input[type="submit"]:hover {
+    background-color: rgba(255, 255, 255, 0.443);
+  }
+  
+  .popup-content button {
+    display: flex;
+    margin: 0px auto 0;
+    margin-right: 0px;
+    font-size: 30px;
+    border: none;
+    background-color: transparent;
+    color: #000000;
+    cursor: pointer;
+  }
+  
+  .popup-content .keep-signed-in {
+    justify-content: center;
+    margin-bottom: 15px;
+    font-family: Space Mono, Regular;
+  }
+  
+  .popup-content .keep-signed-in label {
+    margin-left: 5px;
+  }
+
+  .popup-content ::placeholder{
+    color: #000000;
+  }

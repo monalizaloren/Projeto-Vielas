@@ -1,0 +1,73 @@
+.containerCollections {
+  display: block;
+  max-width: 93%;
+  padding: 10px 0px 10px 2px;
+  margin-top: 3%;
+}
+
+.title {
+  font-size: 24px;
+  margin: 10px 0px 20px 20px;
+  font-family: Lucida Console;
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+}
+
+.collection {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.collectionItem {
+  width: 30%;
+  padding: 10px;
+  margin: 10px;
+}
+
+.collectionItem:hover {
+  background-color: rgba(233, 225, 208, 0.679);
+}
+
+.collectionImage {
+  width: 100%;
+  height: auto;
+}
+
+.collectionTitle {
+  font-size: 18px;
+  margin-top: 10px;
+  font-family: Lucida Console;
+  font-weight: bold;
+}
+
+.collectionDescription {
+  font-size: 14px;
+  margin-top: 5px;
+  font-family: Lucida Console;
+}
+
+hr{
+  height: 2px;
+  border-radius: 8px;
+  background-color: #4761B4;
+  border: none;
+  width: 91%;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+  
+.galleryViella{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 95%;
+}
+
+.galleryViella-items{
+width: 30%;
+height: 30%;
+margin: 0px;
+margin-bottom: 10px;
+}

@@ -1,0 +1,158 @@
+.mainBuyPage{
+    display: flex;
+    flex-direction: column;
+}
+
+.CardItem{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 85%;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+
+.fotoItem{
+    margin: 0px;
+}
+
+.descricao{
+    margin: 10px;
+}
+
+.fotoItem img{
+    width: 650px;
+    
+}
+
+.descricao{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    
+}
+
+.filhoDescricao{
+    width: 100%;
+    display: inline-block; 
+    text-align: left;
+    font-family: "Space Mono";
+}
+
+.filhoDescricao h2{
+    font-weight: bold;
+    font-style: normal;
+    font-size: 25px/30px;
+
+    position: absolute;
+    top: 3%;
+}
+
+.descricaoProduto{
+    position: absolute;
+    top: 20%;
+    font-size: 20px/25px;
+}
+
+.descricaoFoto{
+    position: absolute;
+    top: 40%;
+    font-size: 20px/25px;
+}
+
+.linkProduto{
+    color: #E5401B;
+}
+
+.formulario{
+    position: absolute;
+    top: 50%;
+    font-size: 14px;
+}
+
+.radio{
+    width: 30px;
+    height: 30px;
+    color: red;
+    margin: 10px;
+}
+
+.label1{
+    width: 30px;
+    height: 30px;
+}
+
+.formulario1{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.formulario2{
+    display: flex;
+    position: inherit;
+}
+
+.botaoComprar{
+    position: absolute;
+    top: 85%;
+    width: 15%;
+    height: 10%;
+    border-radius: 14px;
+    border: none;
+
+    background-color: #4761B4;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.card2{
+    display: flex;
+    flex-direction: column;
+}
+
+.descricacaoCard2{
+    margin: 0px;
+    width: 30%;
+    text-align: left;
+    font-family: "Space Mono";
+    display: flex;
+    margin: 10px;
+}
+
+.descricacaoCard2 h1{
+    font-weight: bold;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.card2Img{
+    display: flex;
+    width: 85%;
+    height: 60%;
+}
+
+.imgCard2{
+    width: 30%;
+    margin: 0px;
+}
+
+.card2Titulo{
+    display: flex;
+    width: 85%;
+    height: 90px;
+    position: relative;
+}
+
+.card2Titulo div{
+    position: absolute;
+    top: 40%;
+}
+
+.card2Titulo div h2{
+    font-family: "Space Mono";
+    display: flex;
+}

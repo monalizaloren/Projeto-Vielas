@@ -1,0 +1,35 @@
+.conteinerColecoes{
+    width: 80%;
+
+}
+
+.conteinerColecoes h1{
+    font-family: "Space Mono";
+    font-weight: bold;
+    font-size: 26px;
+    margin-top: 3%;
+
+}
+
+.imagem-crise {
+    width: 30%;
+    margin: 0px;
+}
+
+.conteinerDescricao{
+    display: flex;
+    align-items: center;
+}
+
+.informacoes-crise{
+    width: 30%;
+    margin: 10px;
+
+    font-family: "Space Mono";
+}
+
+.informacoes-crise h2{
+    font-weight: bold;
+    font-family: 25px;
+}
+
